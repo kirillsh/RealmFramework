@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Realm",
     products: [
-        .library(name: "RealmUtils", targets: ["Realm"]),
+        .library(name: "Realm", targets: ["Realm"]),
     ],
     dependencies: [],
     targets: [
